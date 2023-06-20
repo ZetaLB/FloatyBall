@@ -1,0 +1,388 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E50523342A0A7B810083C433 /* zapThreeToneUp.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E50523332A0A7B810083C433 /* zapThreeToneUp.mp3 */; };
+		E50523362A0A7D520083C433 /* mixkit-arcade-retro-game-over-213.wav in Resources */ = {isa = PBXBuildFile; fileRef = E50523352A0A7D520083C433 /* mixkit-arcade-retro-game-over-213.wav */; };
+		E516D7F929F2FFCF000F5D89 /* FloatyBallApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E516D7F829F2FFCF000F5D89 /* FloatyBallApp.swift */; };
+		E516D7FB29F2FFCF000F5D89 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E516D7FA29F2FFCF000F5D89 /* ContentView.swift */; };
+		E516D7FD29F2FFD0000F5D89 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E516D7FC29F2FFD0000F5D89 /* Assets.xcassets */; };
+		E516D80029F2FFD0000F5D89 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E516D7FF29F2FFD0000F5D89 /* Preview Assets.xcassets */; };
+		E516D80B29F302CD000F5D89 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = E516D80A29F302CD000F5D89 /* GameScene.swift */; };
+		E516D80F29F30706000F5D89 /* Button.swift in Sources */ = {isa = PBXBuildFile; fileRef = E516D80E29F30706000F5D89 /* Button.swift */; };
+		E516D81129F310F9000F5D89 /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E516D81029F310F9000F5D89 /* GameView.swift */; };
+		E516D81329F31AA7000F5D89 /* Ball.swift in Sources */ = {isa = PBXBuildFile; fileRef = E516D81229F31AA7000F5D89 /* Ball.swift */; };
+		E516D81529F96739000F5D89 /* Goodies.swift in Sources */ = {isa = PBXBuildFile; fileRef = E516D81429F96739000F5D89 /* Goodies.swift */; };
+		E516D81729F98557000F5D89 /* Baddies.swift in Sources */ = {isa = PBXBuildFile; fileRef = E516D81629F98557000F5D89 /* Baddies.swift */; };
+		E54C5CE42A0C31A700A8D30F /* gameData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E54C5CE32A0C31A700A8D30F /* gameData.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E50523332A0A7B810083C433 /* zapThreeToneUp.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = zapThreeToneUp.mp3; sourceTree = "<group>"; };
+		E50523352A0A7D520083C433 /* mixkit-arcade-retro-game-over-213.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "mixkit-arcade-retro-game-over-213.wav"; sourceTree = "<group>"; };
+		E516D7F529F2FFCF000F5D89 /* FloatyBall.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FloatyBall.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E516D7F829F2FFCF000F5D89 /* FloatyBallApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloatyBallApp.swift; sourceTree = "<group>"; };
+		E516D7FA29F2FFCF000F5D89 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; usesTabs = 0; };
+		E516D7FC29F2FFD0000F5D89 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E516D7FF29F2FFD0000F5D89 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E516D80A29F302CD000F5D89 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		E516D80E29F30706000F5D89 /* Button.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Button.swift; sourceTree = "<group>"; };
+		E516D81029F310F9000F5D89 /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
+		E516D81229F31AA7000F5D89 /* Ball.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ball.swift; sourceTree = "<group>"; };
+		E516D81429F96739000F5D89 /* Goodies.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Goodies.swift; sourceTree = "<group>"; };
+		E516D81629F98557000F5D89 /* Baddies.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Baddies.swift; sourceTree = "<group>"; };
+		E54C5CE32A0C31A700A8D30F /* gameData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gameData.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E516D7F229F2FFCF000F5D89 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E50523322A0A7A680083C433 /* audio */ = {
+			isa = PBXGroup;
+			children = (
+				E50523352A0A7D520083C433 /* mixkit-arcade-retro-game-over-213.wav */,
+				E50523332A0A7B810083C433 /* zapThreeToneUp.mp3 */,
+			);
+			name = audio;
+			sourceTree = "<group>";
+		};
+		E516D7EC29F2FFCE000F5D89 = {
+			isa = PBXGroup;
+			children = (
+				E516D7F729F2FFCF000F5D89 /* FloatyBall */,
+				E516D7F629F2FFCF000F5D89 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E516D7F629F2FFCF000F5D89 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E516D7F529F2FFCF000F5D89 /* FloatyBall.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E516D7F729F2FFCF000F5D89 /* FloatyBall */ = {
+			isa = PBXGroup;
+			children = (
+				E50523322A0A7A680083C433 /* audio */,
+				E516D7F829F2FFCF000F5D89 /* FloatyBallApp.swift */,
+				E516D7FA29F2FFCF000F5D89 /* ContentView.swift */,
+				E516D81029F310F9000F5D89 /* GameView.swift */,
+				E516D80A29F302CD000F5D89 /* GameScene.swift */,
+				E516D81229F31AA7000F5D89 /* Ball.swift */,
+				E516D81429F96739000F5D89 /* Goodies.swift */,
+				E516D81629F98557000F5D89 /* Baddies.swift */,
+				E516D80E29F30706000F5D89 /* Button.swift */,
+				E54C5CE32A0C31A700A8D30F /* gameData.swift */,
+				E516D7FC29F2FFD0000F5D89 /* Assets.xcassets */,
+				E516D7FE29F2FFD0000F5D89 /* Preview Content */,
+			);
+			path = FloatyBall;
+			sourceTree = "<group>";
+		};
+		E516D7FE29F2FFD0000F5D89 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				E516D7FF29F2FFD0000F5D89 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E516D7F429F2FFCF000F5D89 /* FloatyBall */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E516D80329F2FFD0000F5D89 /* Build configuration list for PBXNativeTarget "FloatyBall" */;
+			buildPhases = (
+				E516D7F129F2FFCF000F5D89 /* Sources */,
+				E516D7F229F2FFCF000F5D89 /* Frameworks */,
+				E516D7F329F2FFCF000F5D89 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FloatyBall;
+			productName = FloatyBall;
+			productReference = E516D7F529F2FFCF000F5D89 /* FloatyBall.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E516D7ED29F2FFCE000F5D89 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					E516D7F429F2FFCF000F5D89 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = E516D7F029F2FFCE000F5D89 /* Build configuration list for PBXProject "FloatyBall" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E516D7EC29F2FFCE000F5D89;
+			productRefGroup = E516D7F629F2FFCF000F5D89 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E516D7F429F2FFCF000F5D89 /* FloatyBall */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E516D7F329F2FFCF000F5D89 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E516D80029F2FFD0000F5D89 /* Preview Assets.xcassets in Resources */,
+				E50523342A0A7B810083C433 /* zapThreeToneUp.mp3 in Resources */,
+				E50523362A0A7D520083C433 /* mixkit-arcade-retro-game-over-213.wav in Resources */,
+				E516D7FD29F2FFD0000F5D89 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E516D7F129F2FFCF000F5D89 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E516D81529F96739000F5D89 /* Goodies.swift in Sources */,
+				E516D81329F31AA7000F5D89 /* Ball.swift in Sources */,
+				E516D80B29F302CD000F5D89 /* GameScene.swift in Sources */,
+				E516D7FB29F2FFCF000F5D89 /* ContentView.swift in Sources */,
+				E516D81729F98557000F5D89 /* Baddies.swift in Sources */,
+				E516D7F929F2FFCF000F5D89 /* FloatyBallApp.swift in Sources */,
+				E54C5CE42A0C31A700A8D30F /* gameData.swift in Sources */,
+				E516D80F29F30706000F5D89 /* Button.swift in Sources */,
+				E516D81129F310F9000F5D89 /* GameView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		E516D80129F2FFD0000F5D89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E516D80229F2FFD0000F5D89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E516D80429F2FFD0000F5D89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FloatyBall/Preview Content\"";
+				DEVELOPMENT_TEAM = D9DL9B2673;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.elon.cs.zlenhartboyd.FloatyBall;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E516D80529F2FFD0000F5D89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FloatyBall/Preview Content\"";
+				DEVELOPMENT_TEAM = D9DL9B2673;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.elon.cs.zlenhartboyd.FloatyBall;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E516D7F029F2FFCE000F5D89 /* Build configuration list for PBXProject "FloatyBall" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E516D80129F2FFD0000F5D89 /* Debug */,
+				E516D80229F2FFD0000F5D89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E516D80329F2FFD0000F5D89 /* Build configuration list for PBXNativeTarget "FloatyBall" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E516D80429F2FFD0000F5D89 /* Debug */,
+				E516D80529F2FFD0000F5D89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E516D7ED29F2FFCE000F5D89 /* Project object */;
+}
